@@ -1,0 +1,21 @@
+#canvas { 
+    height: 799px;
+    width: 100%;
+    /* background-color:#f1cd62; */
+    /* background-color: rgba(255, 244, 144, 0.733); */
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}/* #canvas:hover { 
+    background-color:#CA741A;
+    } */
+
+.canvas__space{
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+}

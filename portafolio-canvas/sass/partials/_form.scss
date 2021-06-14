@@ -1,0 +1,89 @@
+.contact__site-map {
+
+  @include site-map ;
+  float: left ;
+  padding-right: 700px;
+  padding-top: 50px;
+}
+
+
+.form {
+
+  padding-left: 500px;
+}
+
+.line {
+  margin-bottom : 1rem ;
+}
+
+.line label {
+  display : block ;
+}
+
+.line input {
+
+  color : $light-gray ;
+  font-family : $roboto ;
+  font-size : 1.25em ;
+  height : 50px ;
+  padding-left: 1.25em;
+  width : 500px ;
+}
+
+
+.contact-title {
+
+  text-align: center;
+}
+
+.text__form {
+  color: $brown;
+  font-weight: 400;
+
+  h3 {
+    font-family: $baskerville;
+    font-size: 3.75em;
+    text-shadow: 2px 2px $orange-hover;
+  }
+  p{
+    font-family: $roboto;
+    font-size: 1.785em;
+  }
+  a {
+    color: $brown;
+    font-family: $roboto;
+    font-size: 1.0625em;
+    }
+    a:hover{
+      color: $orange-hover;
+    }
+  }
+
+.form-contact{
+  display: block;
+  padding-left: 55.9375em;
+}
+
+.form__button {
+
+  background-color: $white;
+  border: 2px solid $white;
+  border-radius: 44px;
+  color: $brown;
+  display: inline-block;
+  font-size: 1.25em;
+  font-family: $roboto;
+  outline: none;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  transition: background-color 0.2s ease-out, color 0.2s ease-out;
+  width: 150px;
+
+  &:hover {
+
+    background-color: $orange-hover;
+    color: $white;
+    font-weight: bold ;
+  }
+}

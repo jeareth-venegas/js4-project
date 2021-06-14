@@ -1,0 +1,87 @@
+.aboutme__sitemap {
+
+  @include site-map ;
+  float: left ;
+  padding-right: 700px;
+  padding-top: 50px ;
+}
+
+.content__box {
+
+  background-color: $white;
+  display: flex;
+  height: 600px;
+  margin: 0 auto;
+  margin-top: 100px;
+  width: 900px;
+}
+
+#image-about-me{
+
+  background-image: url(../../img/about-me.jpg);
+  background-size: cover;
+  //height: 550px;
+  width: 1500px ;
+}
+.img-about__me img {
+
+  margin: 0 ;
+  padding: 0 ;
+  width: 500px ;
+}
+
+.text__about-me {
+  height: 300px;
+  padding: 20px;
+}
+
+.text__about-me {
+
+  h2 {
+
+    font-family: $brush ;
+    font-size: 4.375em ;
+    text-align: center ;
+  }
+  p {
+
+    font-family: $roboto ;
+    font-size: 1.125em ;
+  }
+}
+
+.hero__about-me{
+  padding-top: 500px;
+}
+
+
+.hero__about-me__content{
+
+  color: $brown;
+  padding-right: 100px;
+  z-index: 1;
+  a+a{
+    float: right;
+    margin-bottom: 10px;
+  }
+}
+
+.hero__about-me__content a {
+
+  border: 2px solid $brown;
+  border-radius: 44px;
+  color: $brown;
+  display: inline-block;
+  font-family: $roboto;
+  outline: none;
+  padding: 8px;
+  text-align: center;
+  text-decoration: none;
+  transition: background-color 0.2s ease-out, color 0.2s ease-out;
+  width: 200px;
+}
+.hero__about-me__content a:hover {
+  background-color: $orange-hover;
+  color: $white;
+  font-weight: bold ;
+}

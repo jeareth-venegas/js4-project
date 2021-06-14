@@ -1,0 +1,36 @@
+// MIXINS
+
+// anchors
+
+@mixin anchor($color, $size, $hover-color) {
+
+  color: $color ;
+  font-family: $roboto ;
+  font-size: $size ;
+  text-decoration: none ;
+
+  &:hover{
+
+    color: $hover-color ;
+    text-decoration: underline ;
+  }
+}
+
+// site map
+
+@mixin site-map{
+  font-family: $baskerville;
+
+  a{
+    color: $brown;
+    font-size: 1em;
+    text-decoration: none;
+
+    strong{
+      color: $brown;
+    }
+    strong:hover{
+      text-decoration: underline;
+    }
+  }
+}

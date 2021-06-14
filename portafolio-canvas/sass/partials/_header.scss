@@ -1,0 +1,38 @@
+.header__list{
+
+  float: right;
+  padding-top: 30px;
+}
+
+.header__list__nav {
+
+  li{
+
+    float: left ;
+    list-style: none ;
+
+    a{
+
+      @include anchor($brown, 1.125em, $orange-hover) ;
+    }
+  }
+  li+li{
+
+    margin-left: 120px ;
+  }
+}
+
+.header__title{
+
+  float: left ;
+  //padding-top: 25px ;
+  //padding-left: 10% ;
+
+  img{
+
+    width: 12% ;
+    height: 12% ;
+    margin: 0;
+    padding-top: 10px;
+  }
+}

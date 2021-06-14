@@ -1,0 +1,96 @@
+.portfolio__site-map{
+
+  @include site-map ;
+  float: left ;
+  padding-right: 700px;
+  padding-top: 50px;
+  margin-bottom: 20px;
+}
+
+.project__list {
+
+  float: left;
+  margin: 0 auto ;
+  padding-left: 100px;
+  padding-top: 20px;
+  padding-right: 150px;
+}
+
+.project__list {
+
+  background-color: rgba(255, 255, 255, 0.294);
+  border: 1px solid rgba(255, 255, 255, 0.246);
+  border-radius: 44px;
+}
+
+.box {
+
+  float: left;
+  margin-left: 55px ;
+  margin-bottom: 128px ;
+  padding-top: 84px ;
+  width: 313px ;
+}
+
+.box img{
+  height: 200px;
+  width: 300px;
+}
+
+.box-title {
+  h2{
+    color: $brown;
+    font-family: $roboto;
+    font-size: 1.5625em;
+    text-shadow: 2px 2px $white;
+  }
+}
+
+.box-button{
+
+  background-color: $white;
+  border: 2px solid $white;
+  border-radius: 44px;
+  color: $brown;
+  display: inline-block;
+  font-family: $roboto;
+  outline: none;
+  padding: 8px;
+  text-align: center;
+  text-decoration: none;
+  transition: background-color 0.2s ease-out, color 0.2s ease-out;
+  width: 200px;
+  .box-button:hover {
+    background-color: $orange-hover;
+    color: $brown;
+    font-weight: bold ;
+  }
+}
+
+.repository{
+  h2{
+    color: $white;
+    font-family: $roboto;
+    font-size: 1.5625em;
+    text-shadow: 2px 2px $brown;
+  }
+  .list__github {
+    li {
+      float: left;
+      list-style: none;
+    }
+    li+li{
+
+      margin-left: 100px ;
+    }
+
+    a {
+      color: $white;
+      font-size: 1.125em;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  }
+}

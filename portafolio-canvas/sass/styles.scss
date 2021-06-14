@@ -1,0 +1,35 @@
+// Normalize
+
+@import "library/normalize" ;
+
+// Helpers
+
+@import "partials/helpers" ;
+
+
+// Settings
+
+@import "settings/settings" ;
+@import "settings/mixins" ;
+
+// Components
+
+@import "components/buttons" ;
+
+// Partials
+
+// Estilos globales del sitio web
+
+@import "partials/global" ;
+
+@import "partials/header" ;
+
+@import "partials/main-index" ;
+
+@import "partials/main-about-me" ;
+
+@import "partials/main-portfolio";
+
+@import "partials/form" ;
+
+@import "partials/canvas" ;
